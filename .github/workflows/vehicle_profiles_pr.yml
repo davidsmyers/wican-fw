@@ -62,6 +62,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       issues: write
+      pull-requests: write
     steps:
       - name: Comment on PR with testing instructions
         uses: actions/github-script@v8
