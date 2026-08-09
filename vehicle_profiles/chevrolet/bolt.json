@@ -1,6 +1,6 @@
 {
   "car_model": "Chevrolet: Bolt",
-  "init": "ATSP6;ATST96;ATSP6;",
+  "init": "ATSP6;ATST96;",
   "pids": [
     {
       "pid": "2283341",
