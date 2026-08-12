@@ -1,0 +1,34 @@
+{
+  "car_model": "Toyota: Tacoma (Gen 4)",
+  "comment": "",
+  "init": "ATSP6;ATST96;ATSH750;ATCEA2A;ATTA2A;ATCER2A;ATFCSH750;ATFCSD2A300000;ATFCSM1;ATE0;ATH1;ATL0;ATS1;ATM0;ATST96;ATCRA;",
+  "pids": [
+    {
+      "pid": "2220212",
+      "parameters": {
+        "TYRE_1_POS": "B6",
+        "TYRE_2_POS": "B7",
+        "TYRE_3_POS": "B10",
+        "TYRE_4_POS": "B11"
+      }
+    },
+    {
+      "pid": "2210053",
+      "parameters": {
+        "TYRE_1_PRESS": "(B7 / 4) - 7.35",
+        "TYRE_2_PRESS": "(B11 / 4) - 7.35",
+        "TYRE_3_PRESS": "(B13 / 4) - 7.35",
+        "TYRE_4_PRESS": "(B15 / 4) - 7.35"
+      }
+    },
+    {
+      "pid": "2210042",
+      "parameters": {
+        "TYRE_1_TEMP": "B6 - 40.00",
+        "TYRE_2_TEMP": "B7 - 40.00",
+        "TYRE_3_TEMP": "B10 - 40.00",
+        "TYRE_4_TEMP": "B11 - 40.00"
+      }
+    }
+  ]
+}
